@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.project-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.project {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.project-title {
+    font-weight: bold;
+    text-decoration: underline;
+    margin: 0 0 15px;
+    font-size: 1.5em;
+}
+
+.project-media {
+    margin-bottom: 15px;
+}
+
+.project-image, .project-video {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    padding: 10px;
+    border: 1px solid #dddddd;
+}
+
+.project-description {
+    line-height: 1.6;
+    text-align: justify;
+    margin: 0;
+}
